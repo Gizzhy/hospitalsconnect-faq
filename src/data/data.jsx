@@ -1,4 +1,4 @@
-const faq = [
+export const faq = [
   {
     id: 0,
     question: "How can I withdraw funds from my wallet?",

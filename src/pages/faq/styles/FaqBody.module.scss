@@ -2,7 +2,56 @@
     display: flex;
     background-color: #EEEAFD;
     width: 100%;
+
 }
 .faqBody1, .faqBody2{
     width: 50%;
+    margin-left: 60px;
+    margin-top: 60px;
+}
+.faqHeader{
+    font-size: 18px;
+    font-weight: 500;
+    color: #141420;
+}
+.accordionContainer{
+    width: 505px;
+    height: 72px;
+    border-radius: 8px;
+    background-color: #5432EB;
+    margin-bottom: 16px; /* Add margin to space apart each container */
+display: flex;
+flex-direction: column;
+// align-items: center;
+justify-content: center;
+    padding: 0 16px;
+
+}
+.question{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px;
+}
+
+.faqContent{
+    font-size: 32px;
+    font-weight: 500;
+    color: #475569;
+}
+
+.questionText{
+    margin: 0;
+    color: #EEEAFD;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22.5px;
+}
+
+.answer{
+    font-weight: 400;
+    font-size: 14px;
+    color: #EEEAFD;
+    margin-top: 8px;
+    line-height: 20.5px;
 }

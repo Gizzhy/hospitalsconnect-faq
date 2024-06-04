@@ -1,0 +1,47 @@
+.faqCon{
+    height: 280px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color:  #EEEAFD;
+}
+.faqCon3, .faqCon2, .faqCon1{
+    height: 140px;
+    width: 390px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.faqCon1{
+    background-color: #DDD6FB;
+    
+}
+.faqCon2{
+    background-color: #FBCFE8;
+}
+.faqCon3{
+    background-color: #CCDAFF;
+}
+
+.conArea{
+    height: 90px;
+    width: 320px;
+    // background-color: red;
+    display: flex;
+    // justify-content: space-between;
+}
+.conArea2{
+    margin-top: -14px;
+    margin-left: 18px;
+}
+
+.conAreaW1{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.conAreaW2{
+    font-weight: 400;
+}
